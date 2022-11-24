@@ -1,0 +1,96 @@
+.rootCont {
+  /* height: 90vh; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* padding-bottom: 10vh; */
+  text-align: center;
+}
+
+.rootCont h1 {
+  color: rgb(0, 49, 64);
+
+  margin: 0 auto;
+}
+.rootCont > p {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(8, 111, 143);
+  /* margin: 10; */
+}
+.rootCont > p:nth-of-type(1) {
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+  /* margin: 50px; */
+}
+.skillsContFront {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 50vh; */
+}
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+.skillIcon {
+  font-size: 40px;
+  color: rgb(8, 111, 143);
+}
+.expSkillIcon {
+  font-size: 31px;
+  font-weight: 470;
+  color: rgb(8, 111, 143);
+}
+.reactIcon:hover {
+  color: rgb(94, 211, 243);
+}
+.reduxIcon:hover {
+  color: rgb(118, 76, 183);
+}
+.jsIcon:hover {
+  color: rgb(247, 223, 30);
+}
+.muiIcon:hover {
+  color: rgb(0, 129, 203);
+}
+.htmlIcon:hover {
+  color: rgb(233, 98, 40);
+}
+.cssIcon:hover {
+  color: rgb(37, 75, 221);
+}
+.nodeIcon:hover {
+  color: rgb(95, 151, 89);
+}
+.mongoIcon:hover {
+  color: rgb(82, 167, 75);
+}
+.gitIcon:hover {
+  color: rgb(232, 78, 49);
+}
+.expIcon {
+  margin: 0;
+}
+.expIcon:hover {
+  color: black;
+}
+.leaderIcon:hover {
+  color: rgb(82, 167, 75);
+}
+.teamIcon:hover {
+  color: rgb(232, 78, 49);
+}
+.problemIcon:hover {
+  color: red;
+}

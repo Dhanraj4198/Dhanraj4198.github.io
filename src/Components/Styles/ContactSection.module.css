@@ -1,0 +1,114 @@
+.rootCont {
+    text-align: center;
+    /* height: 45vh; */
+    background-color: rgb(16, 122, 192);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .contactHeading {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px;
+  }
+  .text {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .iconsCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .linkedInIcon {
+    font-size: 40px;
+    margin: 0 10px;
+    /* color: rgb(10, 102, 194); */
+    cursor: pointer;
+    color: black !important;
+  }
+  .linkedInIcon:hover {
+    color: rgb(17, 121, 224) !important;
+  }
+  .gitIcon {
+    font-size: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: black !important;
+  }
+  .gitIcon:hover {
+    color: rgb(80, 80, 80) !important;
+  }
+  .emailicon {
+    font-size: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: black !important;
+  }
+  .emailicon:hover {
+    color: rgb(80, 80, 80) !important;
+  }
+  
+  /* /////////////////////////////////// */
+  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+  
+  form {
+    max-width: 420px;
+    margin: 50px auto;
+  }
+  
+  .feedback_input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #dbd2d2;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  .feedback_input::placeholder{
+  color: white;
+  }
+  
+  .feedback_input:focus {
+    border: 2px solid #eedfdf;
+  }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+  }
+  
+  [type="submit"] {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #2934d3;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  [type="submit"]:hover {
+    background: #5e5555;
+  }
