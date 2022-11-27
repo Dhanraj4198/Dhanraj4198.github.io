@@ -28,6 +28,7 @@ export function AboutSection() {
       >
         <GridItem>
           <Image
+            boxShadow={"rgba(43, 64, 70, 0.14) 0px 12px 32px"}
             margin={"auto"}
             width={{ lg: "50%", md: "60%", sm: "100%" }}
             borderRadius={"10px"}

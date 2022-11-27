@@ -1,9 +1,10 @@
+import { Box } from "@chakra-ui/react";
 import styles from "./Styles/SkillCard.module.css";
-export function SkillCard({ skill, icon }) {
+export function SkillCard({ skill, icon, hover }) {
   return (
-    <div className={styles.card}>
+    <Box className={styles.card}>
       {icon}
-      <p>{skill}</p>
-    </div>
+      <Box _hover={{ color: "white" }}>{skill}</Box>
+    </Box>
   );
 }

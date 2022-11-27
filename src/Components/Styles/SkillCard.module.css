@@ -8,6 +8,16 @@
   margin: 20px auto;
   padding-top: 20px;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f2f8f9;
+  box-shadow: rgba(43, 64, 70, 0.14) 0px 12px 32px;
   border-radius: 10px;
+}
+.card:hover {
+  box-shadow: rgba(43, 64, 70, 0.1) 0px 12px 44px;
+  /* width: 160px;
+  height: 140px; */
+  background-color: rgb(8, 111, 143);
+}
+.card:hover > * {
+  color: white;
 }

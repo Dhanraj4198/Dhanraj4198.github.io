@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import Styles from "./Styles/Navbar.module.css";
 import {
   Button,
   Container,
@@ -14,6 +15,7 @@ export default function Navbar() {
   const name = "<Dhanraj/>";
   return (
     <Container
+      shadow={"rgba(43, 64, 70, 0.14) 0px 12px 32px"}
       maxW={"100%"}
       position="fixed"
       backdropFilter={"blur(10px)"}
@@ -51,6 +53,7 @@ export default function Navbar() {
                 duration={1000}
                 spy={true}
                 hashSpy={true}
+                activeClass="active"
               >
                 <Text _hover={{ borderBottom: "5px solid" }}>About</Text>
               </Link>

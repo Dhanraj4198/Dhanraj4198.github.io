@@ -5,6 +5,7 @@ import {
   Heading,
   GridItem,
   Image,
+  Box,
 } from "@chakra-ui/react";
 export function HeroSection() {
   return (
@@ -20,52 +21,44 @@ export function HeroSection() {
       }}
       gap="30px"
     >
-      <GridItem>
-        <Heading
-          size={{ lg: "2xl", md: "lg", sm: "lg" }}
-          color="rgb(14, 36, 49)"
-        >
-          Hi,
-        </Heading>
-        <HStack>
+      <GridItem display={"flex"} textAlign="left" alignItems={"center"}>
+        <Box>
           <Heading
-            size={{ lg: "2xl", md: "lg", sm: "lg" }}
-            color="rgb(14, 36, 49)"
-          >
-            I am{" "}
-          </Heading>
-          <Heading
-            size={{ lg: "2xl", md: "lg", sm: "lg" }}
+            size={{ lg: "2xl", md: "2xl", sm: "2xl", base: "xl" }}
             color="rgb(8, 111, 143)"
+            marginBottom={{ lg: "10px" }}
           >
-            Dhanraj
+            DHANRAJ JAGTAP
           </Heading>
-        </HStack>
-        <Heading
-          size={{ lg: "2xl", md: "lg", sm: "lg" }}
-          color="rgb(14, 36, 49)"
-        >
-          Full Stack Web Developer
-        </Heading>
-        <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
-          <Button
-            bg={"rgb(1, 75, 97);"}
-            _hover={{ bg: "rgb(14, 129, 165)" }}
-            color="white"
-            variant={"solid"}
-            width={{ lg: "100px", md: "50px", sm: "30px" }}
-            height={{ lg: "40px", md: "25px", sm: "20px" }}
-            borderRadius="3px"
-            fontSize={{ lg: "20px", md: "11px", sm: "9px" }}
+          <Heading
+            fontWeight={"normal"}
+            size={{ lg: "xl", md: "xl", sm: "xl", base: "lg" }}
+            color="rgb(90,90,90)"
+            marginBottom={"16px"}
           >
-            Resume
-          </Button>
-        </a>
+            Full Stack Web Developer
+          </Heading>
+          <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
+            <Button
+              bg={"rgb(1, 75, 97);"}
+              _hover={{ bg: "rgb(14, 129, 165)" }}
+              color="white"
+              variant={"solid"}
+              width="100px"
+              height={"40px"}
+              borderRadius="3px"
+              marginBottom={"10px"}
+              fontSize="16px"
+            >
+              Resume
+            </Button>
+          </a>
+        </Box>
       </GridItem>
       <GridItem>
         <Image
           width={"100%"}
-          src="https://camo.githubusercontent.com/e4a569755580f96dce0e6d65bc761e0d9aef0fecae524ec73a1b0be60fc934fa/68747470733a2f2f7777772e6d79676f2e67652f75706c6f6164732f626c6f672f313538343032333739352e6a7067"
+          src="https://camo.githubusercontent.com/c1dcb74cc1c1835b1d716f5051499a2814c683c806b15f04b0eba492863703e9/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966"
         />
       </GridItem>
     </Grid>

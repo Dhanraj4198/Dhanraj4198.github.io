@@ -1,22 +1,22 @@
-import styles from "./Styles/ContactSection.module.css";
-import { Container, Flex, Icon, Text } from "@chakra-ui/react";
+import { Container, Flex, Icon } from "@chakra-ui/react";
 import React from "react";
 import { BiPhoneCall, BiEnvelope } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-export function ContactSection() {
+const Contact = () => {
   return (
     <Container
-      borderTop={"1px solid grey"}
-      maxW={"80%"}
-      textAlign={"center"}
-      id="contact"
-      paddingTop={"100px"}
-      paddingBottom="100px"
+      maxW={"5%"}
+      marginRight={"0px"}
+      position={"fixed"}
+      right="0px"
+      top={"50%"}
     >
-      <Text fontSize={"30px"}>Liked my work? Want to get in touch?</Text>
-      <Text fontSize={"30px"}>You can reach out to me at</Text>
-      <br />
-      <Flex justifyContent="center" gap="20px" width={"100%"} height="80px">
+      <Flex
+        justifyContent="center"
+        gap="20px"
+        width={"100%"}
+        flexDir={"column"}
+      >
         <a
           href="https://mail.google.com/mail/u/0/?fs=1&to=jagtapdhanraj116@gmail.com&tf=cm"
           target={"_blank"}
@@ -55,4 +55,6 @@ export function ContactSection() {
       </Flex>
     </Container>
   );
-}
+};
+
+export default Contact;
