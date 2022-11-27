@@ -53,6 +53,8 @@ export function ContactSection() {
           />
         </a>
       </Flex>
+      <Text>Phone Number: +91 9404268198</Text>
+      <Text>Email: jagtapdhanraj116@gmail</Text>
     </Container>
   );
 }
