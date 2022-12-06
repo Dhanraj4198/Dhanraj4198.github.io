@@ -46,7 +46,6 @@ export default function Navbar() {
         >
           {isLargerThan800 ? (
             <>
-              {" "}
               <Link
                 to="about"
                 smooth={true}
@@ -55,7 +54,7 @@ export default function Navbar() {
                 hashSpy={true}
                 activeClass="active"
               >
-                <Text _hover={{ borderBottom: "5px solid" }}>About</Text>
+                <Text _hover={{ borderBottom: "5px solid" }}>About Me</Text>
               </Link>
               <Link
                 to="skills"

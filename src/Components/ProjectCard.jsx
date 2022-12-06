@@ -34,7 +34,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
         marginTop={"50%"}
         backdropFilter={"blur(3px)"}
         padding="20px"
-        bg={"rgba(0,0,0,0.2)"}
+        bg={"rgba(255,255,255,0.2)"}
         margin="none"
         borderBottomRadius={"10px"}
       >
