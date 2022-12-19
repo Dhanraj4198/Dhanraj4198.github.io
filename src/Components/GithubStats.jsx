@@ -1,4 +1,11 @@
-import { Container, Grid, GridItem, Heading, Image } from "@chakra-ui/react";
+import {
+  Container,
+  Grid,
+  GridItem,
+  Heading,
+  Image,
+  Box,
+} from "@chakra-ui/react";
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 const GithubStats = () => {
@@ -6,11 +13,20 @@ const GithubStats = () => {
     <div>
       <Container maxW={"80%"} paddingBottom="80px">
         <Heading textAlign={"center"} size={"xl"} color="rgb(14, 36, 49)">
+          Github Calendar
+        </Heading>
+        <br />
+        <br />
+        <Box display={"flex"} justifyContent="center">
+          <GitHubCalendar color={"teal"} username="dhanraj4198" />
+        </Box>
+        <br />
+        <br />
+        <Heading textAlign={"center"} size={"xl"} color="rgb(14, 36, 49)">
           Github Stats
         </Heading>
         <br />
         <br />
-
         <Grid
           templateColumns={{
             lg: "repeat(2,1fr)",
@@ -19,9 +35,6 @@ const GithubStats = () => {
           }}
           gap="30px"
         >
-          <GridItem>
-            <GitHubCalendar username="dhanraj4198" />
-          </GridItem>
           <GridItem>
             <Image
               width={"100%"}
