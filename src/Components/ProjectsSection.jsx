@@ -62,6 +62,9 @@ const projects = [
     about:
       "Geekbuying is an E-commerce website which sells all consumer electronic products",
     stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiRedux className={styles.stackIcon} />,
+      <SiChakraui className={styles.stackIcon} />,
       <SiJavascript className={styles.stackIcon} />,
       <SiHtml5 className={styles.stackIcon} />,
       <SiCss3 className={styles.stackIcon} />,

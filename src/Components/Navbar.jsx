@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import Styles from "./Styles/Navbar.module.css";
 import {
   Button,
   Container,

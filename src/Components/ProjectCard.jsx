@@ -1,4 +1,3 @@
-import styles from "./Styles/ProjectsSection.module.css";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
 import {
   Box,

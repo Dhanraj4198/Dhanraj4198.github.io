@@ -1,4 +1,3 @@
-import styles from "./Styles/ContactSection.module.css";
 import { Container, Flex, Icon, Text } from "@chakra-ui/react";
 import React from "react";
 import { BiPhoneCall, BiEnvelope } from "react-icons/bi";

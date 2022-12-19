@@ -1,11 +1,11 @@
 import {
   Button,
   Grid,
-  HStack,
   Heading,
   GridItem,
   Image,
   Box,
+  Flex,
 } from "@chakra-ui/react";
 export function HeroSection() {
   return (
@@ -38,21 +38,41 @@ export function HeroSection() {
           >
             Full Stack Web Developer
           </Heading>
-          <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
-            <Button
-              bg={"rgb(1, 75, 97);"}
-              _hover={{ bg: "rgb(14, 129, 165)" }}
-              color="white"
-              variant={"solid"}
-              width="100px"
-              height={"40px"}
-              borderRadius="3px"
-              marginBottom={"10px"}
-              fontSize="16px"
+          <Flex gap={'10px'} wrap={'wrap'}> 
+            <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
+              <Button
+                bg={"rgb(1, 75, 97);"}
+                _hover={{ bg: "rgb(14, 129, 165)" }}
+                color="white"
+                variant={"solid"}
+                width="100px"
+                height={"40px"}
+                borderRadius="3px"
+                marginBottom={"10px"}
+                fontSize="16px"
+              >
+                Resume
+              </Button>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1x8WNfuR7TiCK6R0mBUawJ9r8CJzmveo0/view?usp=sharing"
+              target={"_blank"}
             >
-              Resume
-            </Button>
-          </a>
+              <Button
+                bg={"rgb(1, 75, 97);"}
+                _hover={{ bg: "rgb(14, 129, 165)" }}
+                color="white"
+                variant={"solid"}
+                width="120px"
+                height={"40px"}
+                borderRadius="3px"
+                marginBottom={"10px"}
+                fontSize="16px"
+              >
+                View Resume
+              </Button>
+            </a>
+          </Flex>
         </Box>
       </GridItem>
       <GridItem>

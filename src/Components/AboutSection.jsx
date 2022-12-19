@@ -7,7 +7,6 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
-import styles from "./Styles/AboutSection.module.css";
 
 export function AboutSection() {
   return (
