@@ -41,7 +41,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
         </Heading>
         <br />
         <Flex justifyContent={"space-evenly"} flexWrap="wrap">
-          <a href={git}>
+          <a target={'_blank'} href={git}>
             <Button
               _hover={{ bg: "rgb(14, 129, 165)" }}
               bg={"rgb(8, 111, 143)"}
@@ -52,7 +52,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
             </Button>
           </a>
           <HStack>{stacks.map((stack) => stack)}</HStack>
-          <a href={link}>
+          <a target={'_blank'} href={link}>
             <Button
               bg={"rgb(8, 111, 143)"}
               color="white"
