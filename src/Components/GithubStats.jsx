@@ -18,9 +18,10 @@ const GithubStats = () => {
             sm: "repeat(1,1fr)",
           }}
           gap="30px"
-        ><GridItem>
-        <GitHubCalendar username="dhanraj4198"/>
-      </GridItem>
+        >
+          <GridItem>
+            <GitHubCalendar username="dhanraj4198" />
+          </GridItem>
           <GridItem>
             <Image
               width={"100%"}

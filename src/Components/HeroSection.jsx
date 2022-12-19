@@ -38,7 +38,7 @@ export function HeroSection() {
           >
             Full Stack Web Developer
           </Heading>
-          <Flex gap={'10px'} wrap={'wrap'}> 
+          <Flex gap={"10px"} wrap={"wrap"}>
             <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
               <Button
                 bg={"rgb(1, 75, 97);"}

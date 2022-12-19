@@ -51,7 +51,7 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
               <Text paddingLeft={"10px"}>Code</Text>
             </Button>
           </a>
-          <HStack >{stacks.map((stack) => stack)}</HStack>
+          <HStack>{stacks.map((stack) => stack)}</HStack>
           <a href={link}>
             <Button
               bg={"rgb(8, 111, 143)"}

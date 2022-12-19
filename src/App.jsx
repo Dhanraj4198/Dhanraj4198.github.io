@@ -11,7 +11,7 @@ import { SkillsSection } from "./Components/SkillsSection";
 
 function App() {
   return (
-    <Container bgImage={'/Frame9.svg'} bgSize='100%' maxW={"100%"}>
+    <Container bgImage={"/Frame9.svg"} bgSize="100%" maxW={"100%"}>
       <Contact />
       <Navbar />
       <HeroSection />
