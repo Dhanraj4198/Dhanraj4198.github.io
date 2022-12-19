@@ -4,7 +4,6 @@ import {
   Box,
   Heading,
   Icon,
-  Image,
   Button,
   Text,
   HStack,
@@ -32,9 +31,9 @@ export function ProjectCard({ name, img, git, link, stacks, about }) {
     >
       <Box
         marginTop={"50%"}
-        backdropFilter={"blur(3px)"}
+        backdropFilter={"blur(5px)"}
         padding="20px"
-        bg={"rgba(255,255,255,0.2)"}
+        bg={"rgba(255,255,255,0.7)"}
         margin="none"
         borderBottomRadius={"10px"}
       >

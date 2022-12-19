@@ -7,7 +7,9 @@ import {
   SiReact,
   SiRedux,
   SiChakraui,
+  SiMongodb,
 } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 import { Container, Grid, GridItem, Heading } from "@chakra-ui/react";
 const projects = [
   {
@@ -52,11 +54,31 @@ const projects = [
       <SiCss3 className={styles.stackIcon} />,
     ],
   },
+  {
+    name: "Geekbuying Clone",
+    img: "/Geekbuying.png",
+    link: "https://gorgeous-daffodil-6e6d25.netlify.app/",
+    git: "https://github.com/priyankadora20/punchy-substance-1301",
+    about:
+      "Geekbuying is an E-commerce website which sells all consumer electronic products",
+    stacks: [
+      <SiJavascript className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+      <FaNodeJs className={styles.stackIcon} />,
+    ],
+  },
 ];
 export function ProjectsSection() {
   return (
     <Container maxW={"80%"} paddingTop={"180px"} id="projects">
-      <Heading textAlign={"center"} marginBottom='100px' size={"2xl"} color="rgb(14, 36, 49)">
+      <Heading
+        textAlign={"center"}
+        marginBottom="100px"
+        size={"2xl"}
+        color="rgb(14, 36, 49)"
+      >
         Projects
       </Heading>
       <Grid gap={"60px"}>

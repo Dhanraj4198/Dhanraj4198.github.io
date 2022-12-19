@@ -1,6 +1,6 @@
 import { Container, Grid, GridItem, Heading, Image } from "@chakra-ui/react";
 import React from "react";
-import {calender} from "github-calendar"
+import GitHubCalendar from "react-github-calendar";
 const GithubStats = () => {
   return (
     <div>
@@ -13,12 +13,14 @@ const GithubStats = () => {
 
         <Grid
           templateColumns={{
-            lg: "repeat(3,1fr)",
+            lg: "repeat(2,1fr)",
             md: "repeat(2,1fr)",
             sm: "repeat(1,1fr)",
           }}
           gap="30px"
-        >
+        ><GridItem>
+        <GitHubCalendar username="dhanraj4198"/>
+      </GridItem>
           <GridItem>
             <Image
               width={"100%"}
