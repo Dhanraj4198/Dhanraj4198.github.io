@@ -82,7 +82,7 @@ export default function Navbar() {
               >
                 <Text _hover={{ borderBottom: "5px solid" }}>Contact</Text>
               </Link>
-              <a href="https://drive.google.com/uc?export=download&id=1jeoGnGCeVEt6aq0nSq2dJ0CFsdJYmlXN">
+              <a href="https://drive.google.com/uc?export=download&id=1eans4rcFvq5Ex5I6EhzqAKKDyMhiQ4pT">
                 <Button
                   bg={"rgb(1, 75, 97);"}
                   _hover={{ bg: "rgb(14, 129, 165)" }}
