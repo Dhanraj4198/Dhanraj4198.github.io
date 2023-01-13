@@ -12,8 +12,12 @@ export function ContactSection() {
       paddingTop={"100px"}
       paddingBottom="100px"
     >
-      <Text fontSize={"30px"}>Liked my work? Want to get in touch?</Text>
-      <Text fontSize={"30px"}>You can reach out to me at</Text>
+      <Text fontSize={{ base: "18px", sm: "20", md: "25px", lg: "30px" }}>
+        Liked my work? Want to get in touch?
+      </Text>
+      <Text fontSize={{ base: "18px", sm: "20", md: "25px", lg: "30px" }}>
+        You can reach out to me at
+      </Text>
       <br />
       <Flex justifyContent="center" gap="20px" width={"100%"} height="80px">
         <a

@@ -27,6 +27,14 @@ const GithubStats = () => {
         </Heading>
         <br />
         <br />
+        <GridItem>
+          <Image
+            width={"100%"}
+            align={"center"}
+            src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhanraj4198&theme=nord_bright"
+          />
+        </GridItem>
+        <br /><br />
         <Grid
           templateColumns={{
             lg: "repeat(2,1fr)",
@@ -39,24 +47,18 @@ const GithubStats = () => {
             <Image
               width={"100%"}
               align={"center"}
-              src="https://github-readme-stats.vercel.app/api/top-langs?username=dhanraj4198&show_icons=true&locale=en&layout=compact"
+              src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dhanraj4198&theme=nord_bright"
             />
           </GridItem>
           <GridItem>
             <Image
               width={"100%"}
-              align={"cen"}
-              src="https://github-readme-stats.vercel.app/api?username=dhanraj4198&show_icons=true&locale=en"
-            />
-          </GridItem>
-          <GridItem>
-            <Image
-              width={"100%"}
-              align={"cen"}
-              src="https://github-readme-streak-stats.herokuapp.com/?user=dhanraj4198&"
+              align={"center"}
+              src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=dhanraj4198&theme=nord_bright"
             />
           </GridItem>
         </Grid>
+        
       </Container>
     </div>
   );
