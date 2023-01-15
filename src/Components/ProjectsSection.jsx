@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Expedia.com Clone",
     img: "/Expedia.png",
-    link: "https://allseasonhotels-dhanraj4198.vercel.app/",
+    link: "https://allseasonhotels-dhanraj.vercel.app",
     git: "https://github.com/Dhanraj4198/average-collar-3069/tree/main/expedia-clone",
     about:
       "Expedia is e-commerce website used for Booking hotel rooms in India. This was a Team Project ",

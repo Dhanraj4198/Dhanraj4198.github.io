@@ -39,7 +39,7 @@ export function HeroSection() {
             Full Stack Web Developer
           </Heading>
           <Flex gap={"10px"} wrap={"wrap"}>
-            <a href="https://drive.google.com/uc?export=download&id=1eans4rcFvq5Ex5I6EhzqAKKDyMhiQ4pT">
+            <a href="https://drive.google.com/uc?export=download&id=14hhmNICbCYUsRM0-apnFlMOftRalvaAs">
               <Button
                 bg={"rgb(1, 75, 97);"}
                 _hover={{ bg: "rgb(14, 129, 165)" }}
@@ -55,7 +55,7 @@ export function HeroSection() {
               </Button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1eans4rcFvq5Ex5I6EhzqAKKDyMhiQ4pT/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/14U3RjY3F7GJC38QeiAbK70d7jN31Zi10?usp=sharing"
               target={"_blank"}
             >
               <Button

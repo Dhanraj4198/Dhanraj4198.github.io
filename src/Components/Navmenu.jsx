@@ -54,7 +54,7 @@ const Navmenu = () => {
           </Link>
         </MenuItem>
         <MenuItem>
-          <a href="https://drive.google.com/uc?export=download&id=1eans4rcFvq5Ex5I6EhzqAKKDyMhiQ4pT">
+          <a href="https://drive.google.com/uc?export=download&id=14hhmNICbCYUsRM0-apnFlMOftRalvaAs">
             Resume
           </a>
         </MenuItem>
