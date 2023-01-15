@@ -2,7 +2,7 @@
 
 # Dhanraj4198.github.io
 
-This is my portfolio which I have developed in a duration of 1 month, This is developed using react,chakraUI. It includes all my projects and about me
+This is my portfolio which I have developed in a duration of 3 months, This is developed using react,chakraUI. It includes all my projects and about me
 
 <br/>
 
@@ -19,31 +19,28 @@ This is my portfolio which I have developed in a duration of 1 month, This is de
 <br/>
 
 - ###### Hero Section :
+
+<img src="https://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/Hero.png?raw=true"/>
 <br/>
 
-- ###### Login Page :
+- ###### About Section :
 
-![Screenshot (30)](https://user-images.githubusercontent.com/96099134/209419939-58ce13fa-8566-42fb-8289-ade8d16dac09.png)
-
+<img src="https://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/About.png?raw=true"/>
 <br/>
 
-- ###### Product Page (Hotels) :
+- ###### Skills Section :
 
-![Screenshot (25)](https://user-images.githubusercontent.com/96099134/209419943-acf06a86-552b-4b85-964b-f89cdf4f8fe8.png)
+<img src="https://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/Skills.png?raw=true"/>
 <br/>
 
-- ###### Single Product Page :
+- ###### Project Section :
 
-![Screenshot (27)](https://user-images.githubusercontent.com/96099134/209419934-32a6921c-0fbb-4a29-8e47-a3735f2c5ee0.png)
+<img src="https://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/Projects.png?raw=true"/>
 <br/>
 
-- ###### Checkout Page :
-  ![Screenshot (29)](https://user-images.githubusercontent.com/96099134/209419937-fd53919e-d136-404b-8fb2-abd0323505e1.png)
+- ###### Github Stats :
+<img src="https://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/Stats.png?raw=truehttps://github.com/Dhanraj4198/Dhanraj4198.github.io/blob/master/public/Stats.png?raw=true"/>
 
 ## Contributors
 
 - <a href="https://github.com/Dhanraj4198"> Dhanraj Jagtap </a>
-- <a href="https://github.com/Aniruddha8787"> Aniruddha Nalage </a>
-- <a href="https://github.com/SunilHooda"> Sunil Hooda </a>
-- <a href="https://github.com/RohitD100"> Rohit Dorage </a>
-- <a href="https://github.com/Aayush983"> Ayush Kumar </a>
