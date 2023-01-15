@@ -75,7 +75,12 @@ const projects = [
 ];
 export function ProjectsSection() {
   return (
-    <Container maxW={"80%"} paddingTop={"180px"} id="projects">
+    <Container
+      maxW={"80%"}
+      paddingTop={"180px"}
+      paddingBottom={"80px"}
+      id="projects"
+    >
       <Heading
         textAlign={"center"}
         marginBottom="100px"
